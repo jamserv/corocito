@@ -16,6 +16,7 @@ public class Clients {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String id_number;
+    private String name;
     private String last_name;
     private String no_apto;
     private String cellphone;
@@ -36,6 +37,14 @@ public class Clients {
 
     public void setId_number(String id_number) {
         this.id_number = id_number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getLast_name() {

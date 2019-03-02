@@ -34,8 +34,6 @@ public class UserController {
         return repository.save(model);
     }
 
-    
-
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(method = RequestMethod.DELETE)
     void delete(@RequestParam("id") Long id) {
