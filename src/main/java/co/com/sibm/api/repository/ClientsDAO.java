@@ -1,12 +1,13 @@
 package co.com.sibm.api.repository;
 
-import co.com.sibm.api.model.Group;
+
+import co.com.sibm.api.model.Client;
 import org.springframework.data.repository.CrudRepository;
+
 
 /**
  *
  * @author usuario
  */
-public interface GroupsDAO extends CrudRepository<Group, Integer>{
-
+public interface ClientsDAO extends CrudRepository<Client, Integer>{
 }
